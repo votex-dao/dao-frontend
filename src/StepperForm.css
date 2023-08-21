@@ -1,0 +1,27 @@
+.css-rh92k-MuiPaper-root-MuiMobileStepper-root{
+    padding: 0 !important; 
+}
+
+.css-1be5mm1-MuiLinearProgress-root-MuiMobileStepper-progress{
+    background-color: #0C0F1A !important;
+    width: 100% !important;
+    height: 12px !important;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #f5274e, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 2.5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

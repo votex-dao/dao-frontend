@@ -1,0 +1,31 @@
+
+  .tabs{
+    margin-top:5px;
+    font-size:15px;
+    padding:4px;
+    list-style:none;
+    background:#fff;
+    box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+    display:inline-block;
+    border-radius:50px;
+    position:relative;
+  }
+  
+  .tabs span{
+    text-decoration:none;
+    color: #f5274e;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding:10px 20px;
+    display:inline-block;
+    position:relative;
+    z-index:1;
+    transition-duration:0.6s;
+    background: black;
+    background: -moz-linear-gradient(45deg, black 0%, #0C0F1A 100%);
+    background: -webkit-linear-gradient(45deg, black 0%,#0C0F1A 100%);
+    background: linear-gradient(45deg, black 0%,#0C0F1A 100%);
+    border-radius:50px;
+
+  }
